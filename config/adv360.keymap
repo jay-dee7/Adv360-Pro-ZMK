@@ -20,17 +20,6 @@
         };
     };
 
-    macros {
-        macro_ctrl_opt: macro_ctrl_opt {
-                label = "CO_CTRL_OPTION";
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings
-                    = <&macro_press &kp LALT ACTRL>
-                    ;
-            };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
